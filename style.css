@@ -1,0 +1,35 @@
+body{
+    margin:0;
+    padding:0;
+}
+img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:500px;
+}
+.left-top{
+    position:absolute;
+    top:5px;
+    left:5px;
+    color:white;
+}
+.right-bottom{
+    position:absolute;
+    top: 260px;
+    left:415px;
+    color:white;
+}
+.center{
+    border: solid 4px red;
+    text-align:center;
+    padding:15px 15px 15px 15px;
+    border-radius: 10px;
+    color:white;
+    position:absolute;
+    top:120px;
+    left:170px;
+}
+.center:hover{
+    color:black;
+    background-color:skyblue;
+}
